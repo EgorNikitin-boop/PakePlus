@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #cceeff;      /* Нежно-голубой фон страницы */
+    font-family: Arial, sans-serif;
+    color: #003366;           /* Тёмно-синий текст для контраста */
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    background: #cceeff;      /* Нежно-голубой фон канваса */
+    border: 3px solid #87ceeb; /* Рамка цвета "skyblue" (чуть темнее фона) */
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 80vh;
+    width: 480px;
+    height: 480px;
+}
+
+.score {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ff1493;           /* Ярко-розовый счёт (для контраста) */
+    font-weight: bold;
+}
+
+.hint {
+    font-size: 0.85em;
+    color: #003366;
+}
